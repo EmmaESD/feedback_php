@@ -11,5 +11,5 @@ $request->bindParam(':note', $_POST['note']);
 
 $request->execute();
 
-header('Location: ../index.php?success=Nouvelle recette ajoutée !');
+header('Location: ../index.php?sort=');
 ?>
