@@ -1,9 +1,4 @@
-<?php
-    $connectDatabase = new PDO("mysql:host=db;dbname=wordpress", "root", "admin");
-    $request = $connectDatabase->prepare("SELECT * FROM messages");
-    $request->execute();
-    $messages = $request->fetchAll(PDO::FETCH_ASSOC);
-?>
+
 
 <?php foreach ($messages as $message): ;?>
     <div class="card" >
