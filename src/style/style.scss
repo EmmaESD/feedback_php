@@ -17,3 +17,44 @@ img {
   width: 150px;
   height: 150px;
 }
+
+.content {
+  gap: 100px;
+}
+.form,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.etab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card-etab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border: solid 1px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.title-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
