@@ -12,6 +12,6 @@ $etablishments = $request->fetchAll(PDO::FETCH_ASSOC);
             <h1 class="title"><?php echo $etablishment['title'];?></h1>
         </div>
         <h2 class="content-etab"><?php echo $etablishment['content']; ?></h2> 
-        <button><a href="./singleEtab.php">commentaire</a></button>
+        <button><a href="./parts/singleEtab.php">commentaire</a></button>
     </div>
 <?php endforeach ?>

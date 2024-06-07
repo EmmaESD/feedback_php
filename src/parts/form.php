@@ -1,4 +1,4 @@
-<div class="form">
+<div class="form-message">
     <form action="../scripts/createPost-script.php" method="POST">
         <div class="note">
             <input type="radio" name="note" value="1" id="note1" required>

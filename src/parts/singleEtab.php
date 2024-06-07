@@ -1,6 +1,6 @@
 <div class="content">
         <div class="form">
-            <?php require_once './parts/form.php'?>
+            <?php require_once './form.php'?>
         </div>
         <div class="button-tri">
 <?php
@@ -43,6 +43,6 @@ $messages = $request->fetchAll(PDO::FETCH_ASSOC);
 </script>
         </div>
         <div class="postlist">
-            <?php require_once './parts/post-list.php' ?>
+            <?php require_once './post-list.php' ?>
         </div>
     </div>

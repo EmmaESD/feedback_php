@@ -11,5 +11,5 @@ $request->bindParam(':note', $_POST['note']);
 
 $request->execute();
 
-header('Location: ../singleEtab.php?success=Nouvelle recette ajoutée !');
+header('Location: ../parts/singleEtab.php?success=Nouvelle recette ajoutée !');
 ?>
